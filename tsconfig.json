@@ -2,7 +2,8 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "types": [
-      "@types/kakao-js-sdk"
+      "@types/kakao-js-sdk",
+      "kakao.maps.d.ts"
     ]
   }
 }

@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import AImage from "../components/atoms/AImage"
+import AImage from "@/components/atoms/AImage.vue"
 import { reactive } from "@vue/runtime-core"
 
 export default {
@@ -23,6 +23,8 @@ export default {
     const data = reactive({
       items: Array(100).fill(0).map((_, index) => ({ src: 'https://source.unsplash.com/random/350x350', alt: `image-${index}` }))
     })
+
+    new URLSearchParams()
 
     return {
       data

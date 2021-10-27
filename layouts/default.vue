@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen">
+  <div class="w-full h-screen max-w-4xl mx-auto">
     <slot />
     <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow">
       <div id="tabs" class="flex justify-between">

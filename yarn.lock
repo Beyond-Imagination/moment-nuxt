@@ -3751,6 +3751,11 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+kakao.maps.d.ts@^0.1.24:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/kakao.maps.d.ts/-/kakao.maps.d.ts-0.1.24.tgz#64bd2e9a656c900ee139c60d45a562c5e3bfd72c"
+  integrity sha512-QPtcdPSc1/tDzlRrWtBoeIbD524CaFxsSuShyFyGsvXDF0mWpezvuWysWAcE4O8B2rklZhD3oK++hw8nnJgCGQ==
+
 keygrip@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/keygrip/-/keygrip-1.1.0.tgz#871b1681d5e159c62a445b0c74b615e0917e7226"

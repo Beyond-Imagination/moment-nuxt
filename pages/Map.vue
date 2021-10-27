@@ -17,7 +17,7 @@ export default {
   name: 'Map',
   setup () {
     const mapContainer = ref()
-    const kakaoMap = ref(null)
+    const kakaoMap = ref<kakao.maps.Map>(null)
 
     const onLoad = async () => {
       const geo = await getGeolocation()
@@ -31,7 +31,7 @@ export default {
 
     function initializeKakaoMapScript () {
       const script = document.createElement('script')
-      /* global kakao */
+
       script.onload = () => kakao.maps.load(initMap)
       script.src = 'http://dapi.kakao.com/v2/maps/sdk.js?appkey=1fa3d84c220e7a4cbc19ac98ad079f9a&autoload=false'
       document.head.appendChild(script)
